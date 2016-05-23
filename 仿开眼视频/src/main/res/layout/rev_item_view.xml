@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/rl_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/im_item"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/shadeColor"
+        ></View>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="复仇者联盟"
+            android:textSize="20sp"
+            android:textColor="@color/whiteColor"
+            />
+    </RelativeLayout>
+</RelativeLayout>
